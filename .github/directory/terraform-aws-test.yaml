@@ -6,7 +6,7 @@ on:
     branches: [ test ]
 
 env:  
-  AWS_REGION : ${{ env.AWS_REGION }} #Change to reflect your Region
+  AWS_REGION : "us-east-1" #Change to reflect your Region
  
 permissions:
       id-token: write   # This is required for requesting the JWT
