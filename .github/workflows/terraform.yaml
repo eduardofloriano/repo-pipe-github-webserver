@@ -59,7 +59,7 @@ jobs:
 
       - name: Terraform Validate        
         id: terraform-validate
-        run: terraform force-unlock 3d118b4e-4ec0-e586-089f-fc1a541ba028 && terraform validate
+        run: terraform validate
 
       - name: Terraform Destroy
         if: steps.read-destroy.outputs.destroy == 'true'
