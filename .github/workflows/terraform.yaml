@@ -43,6 +43,11 @@ jobs:
           aws-region: ${{ inputs.aws-region }}
 
 
+      - name: limpar-locks
+         run: |
+           cd infra && terraform force-unlock 9db590f1-b6fe-c5f2-2678-8804f089deba
+           && terraform force-unlock 3d118b4e-4ec0-e586-089f-fc1a541ba028
+
       - name: Read destroy.json
         id: read-destroy
         run: |
