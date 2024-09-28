@@ -1,4 +1,4 @@
-instanceName = "ec2-mack-webserver
+instanceName = "ec2-mack-webserver"
 imageId = "ami-0ebfd941bbafe70c6"
 instanceType = "t2.micro"
 keyName = "key-mack-webserver"
