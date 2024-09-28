@@ -58,8 +58,7 @@ jobs:
             -backend-config="dynamodb_table=${{ inputs.aws-lock-table }}"
 
       - name: limpar-locks
-         run: |
-           cd infra && terraform force-unlock 3d118b4e-4ec0-e586-089f-fc1a541ba028
+         run: terraform force-unlock 3d118b4e-4ec0-e586-089f-fc1a541ba028
 
       - name: Terraform Validate        
         id: terraform-validate
