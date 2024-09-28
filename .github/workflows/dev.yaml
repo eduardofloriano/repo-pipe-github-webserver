@@ -15,5 +15,5 @@ jobs:
       environment: dev
       aws-region: "us-east-1"
       aws-state-s3-bucket: "bucket-pipe-github"
-      aws-lock-table: "table-pipe-webserver"
+      aws-lock-table: "table-pipe-webserver-2"
       aws-assume-role-arn: "arn:aws:iam::354918407212:role/role-autenticador-pipe-github"
