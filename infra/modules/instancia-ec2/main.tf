@@ -14,6 +14,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "instancia-ec2-mack" {
-  ami = "ami-0aa8fc2422063977a"
+  ami = "ami-0ba8711e0e1da2a52"
   instance_type = "t2.micro"
 }
