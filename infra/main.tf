@@ -1,6 +1,5 @@
-module "bucket"{
-    source = "./modules/bucket-aws"
-    bucket_prefix = "terraform-bucket-posmack"
+module "instancia-ec2-mack"{
+    source = "./modules/instancia-ec2"
     region = "us-east-1"
 
 }

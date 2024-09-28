@@ -1,3 +1,3 @@
-output "aws-bucket-id" {
-  value = module.bucket.aws-bucket-id
+output "instancia-ec2-id" {
+  value = module.instancia-ec2-mack.instancia-ec2-id
 }
